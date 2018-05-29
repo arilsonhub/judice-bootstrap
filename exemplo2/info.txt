@@ -1,0 +1,11 @@
+Neste exemplo, ambas as divs da primeira coluna ocupam 50% do viewport. Já na segunda linha, cada elemento ocupa 1/3 do tamanho do container.
+ 
+Mas esse negócio de “md” aí no meio?
+ 
+Ainda bem que você perguntou. Este é uma abreviação de “medium” ou médio. Significa que, para viewports médios, o elemento terá 50% da largura do Viewport
+ 
+Para cada medida de viewport temos um prefixo:
+sx – Extra Small (Extra pequeno)
+sm – Small (Pequeno)
+md – Medium (Médio)
+lg – Large (Grande)

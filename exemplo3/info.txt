@@ -1,0 +1,29 @@
+A nossa primeira div é o container, que terá seus tamanhos variando de acordo com a largura do viewport. Sugiro que abra este código em uma nova aba e vá diminuindo e aumentando a largura na janela do navegador. Isso te mostrará de um modo 100% prático como funcionam as classes e como cada elemento ganha uma largura distinta.
+A segundo div é a linha, com a classe “.row” conforme já mencionei anteriormente.
+Dentro da linha temos 4 divs que se comportam de maneira diferente.
+ 
+Estudando as classes das colunas
+ 
+ATENÇÃO! Se você quiser guardar apenas uma coisa deste artigo, entenda tudo que está explicado nos 4 blocos de texto abaixo!
+ 
+Nossa primeira div tem as seguintes classes:
+“.col-sm-12“, indicando que quando o viewport for maior ou igual a 768px, esse elemento terá a largura de 12 colunas, ou 100%
+“.col-md-6“, indicando que quando o viewport for maior ou igual a 992px, esse elemento ocupará o espaço de 6 colunas
+“.col-lg-3“, que fará com que este elemento tenha sua largura equivalente a 3 colunas quando o viewport for maior ou igual a 1200px
+ 
+Nossa segunda div tem as seguintes classes:
+“.col-sm-9“, indicando que quando o viewport for maior ou igual a 768px, esse elemento terá a largura de 9 colunas
+“.col-md-6“, indicando que quando o viewport for maior ou igual a 992px, esse elemento ocupará o espaço de 6 colunas
+“.col-lg-6“, fazendo com que este elemento tenha largura equivalente a 6 colunas também, quando o viewport for maior ou igual a 1200px
+ 
+Nossa terceira div tem as seguintes classes:
+“.col-xs-6“, indicando que a partir de 0px este elemento já se inicia com a largura de 6 colunas
+“.col-sm-3“, indicando que quando o viewport for maior ou igual a 768px, esse elemento terá a largura de 3 colunas, ou 100%
+“.col-md-9“, indicando que quando o viewport for maior ou igual a 992px, esse elemento ocupará o espaço de 9 colunas
+“.col-lg-2“, que fará com que este elemento tenha sua largura equivalente a 2 colunas quando o viewport for maior ou igual a 1200px
+ 
+Nossa quarta div tem as seguintes classes:
+“.col-xs-6“, indicando que desde 0px este elemento já se inicia com a largura de 6 colunas
+“.col-sm-12“, indicando que quando o viewport for maior ou igual a 768px, esse elemento terá a largura de 12 colunas, ou 100%
+“.col-md-3“, indicando que quando o viewport for maior ou igual a 992px, esse elemento ocupará o espaço de 3 colunas
+“.col-lg-1“, que fará com que este elemento tenha sua largura equivalente a 1 coluna quando o viewport for maior ou igual a 1200px

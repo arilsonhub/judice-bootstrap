@@ -1,0 +1,16 @@
+Como mudar uma coluna pra direita: Offset
+O “offset” empurra a coluna para a direita usando os mesmo números que as larguras de colunas.
+
+Então, se queremos que uma coluna “ande” o espaço correspondente a 4 colunas, basta inserir “.col-md-offset-4“. Isto adiciona uma margem à esquerda, que a empurrará na largura de quatro colunas quando a janela do navegador estiver no tamanho “md” e acima dele.
+
+Você poderá sobrescrever esta regra para outros tamanhos de janela (viewport). Vamos a um exemplo: imagine que você tenha uma coluna com tamanho 6 quando a viewport está na medida xs (0 a 767px).
+E se você quisesse que este elemento andasse 3 colunas para a direita?
+Então você usaria:
+ 
+ 
+OBS: Notou o “xs” ali no meio? Então não esqueça que este elemento só será empurrado para a direita enquanto o tamanho do viewport for menor que 768px.
+ 
+Agora, para um tamanho maior de tela (sm) você quer que ela tenha tamanho 4 porém sem nenhum offset. Então deverá acrescentar duas classes: “col-sm-4” e “col-sm-offset-0”.
+Com o resultado final:
+ 
+Observe que a classe “col-sm-offset-0” sobrescreve a classe “.col-xs-offset-3”, zerando a margem esquerda.
